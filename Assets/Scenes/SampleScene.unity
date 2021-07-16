@@ -531,8 +531,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 5
   _stepSize: 0.01
-  _leftLimiter: {fileID: 0}
-  _rightLimiter: {fileID: 0}
 --- !u!114 &472150853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -714,6 +712,10 @@ PrefabInstance:
       propertyPath: _rightLimiter
       value: 
       objectReference: {fileID: 243344863}
+    - target: {fileID: 2136430811, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
+      propertyPath: _directionOfRestriction
+      value: 
+      objectReference: {fileID: 243344863}
     - target: {fileID: 5302430179612038676, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.02
@@ -797,6 +799,22 @@ PrefabInstance:
     - target: {fileID: 5302430180910861026, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
       propertyPath: m_SortingOrder
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302430181117595396, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302430181117595396, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302430181117595396, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5302430181117595396, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5302430181117595399, guid: 8a069742aa06b1045a38c956652f143b, type: 3}
       propertyPath: m_SortingOrder
@@ -1008,7 +1026,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7953171721551892076, guid: f8e08a7e51e5eeb4190a15aca56a4260, type: 3}
       propertyPath: _duration
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7953171721551892076, guid: f8e08a7e51e5eeb4190a15aca56a4260, type: 3}
       propertyPath: _stepVolume
